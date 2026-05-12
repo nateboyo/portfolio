@@ -1,0 +1,28 @@
+# Build artifacts
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Tooling (kept locally, not committed)
+yt-dlp.exe
+
+# Browser preview profiles (from Job Tracker work)
+.edge-profile-preview/
+.edge-profile-vercel-preview/
