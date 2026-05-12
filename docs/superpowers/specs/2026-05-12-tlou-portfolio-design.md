@@ -74,12 +74,13 @@ A personal portfolio website for Nathan Garrovillas (full-stack engineer) whose 
 ### `/projects` — Projects
 - Side-by-side layout: 280px-wide left column (project list) + flexible right column (selected project detail).
 - Left column: 7 projects, vertically listed. Active project gets a 2px amber left-border + white text.
+- **In-progress projects** show "— IN PROGRESS" in small amber text appended to the project name in the list. In v1 this applies to **Prism** and **Solace**.
 - Right column shows the selected project:
-  - Screenshot/preview image at top (max ~600x280)
+  - Screenshot/preview image at top (max ~600x280). For in-progress projects, the image area is replaced by a placeholder with a dashed amber border and the text "IN PROGRESS / Screenshot coming soon."
   - Project name (large uppercase, white)
   - Tech stack line (amber, uppercase)
   - Description paragraph
-  - "View Live" + "GitHub" buttons (ghost-style, amber border on hover)
+  - "View Live" + "GitHub" buttons (ghost-style, amber border on hover). In-progress projects hide the "View Live" button and may show "GitHub (Private)" or omit it.
 - Default-selected project on entry: **Care Circle** (Nathan's flagship project).
 
 ### `/about` — About Me
@@ -188,7 +189,7 @@ These don't block design approval, but the build will use placeholders until the
 |---|---|---|
 | TLOU window video | ✅ have | `portfolio/assets/tlou-menu-bg.mp4`, will be compressed |
 | Resume PDF | ✅ have | already in `OneDrive/Desktop/job stuff/Nathan_Garrovillas_Resume_2026.pdf` |
-| Project screenshots (7) | ⚠️ partial | Have JobLink Log QA pngs in its folder. Need: Care Circle, Obsession, Prism, Solace, Creative Shore LI, DNS Case Study screenshots |
+| Project screenshots (5 ready, 2 deferred) | ⚠️ partial | Need PNGs at `public/projects/{care-circle,joblink-log,obsession-studio,creative-shore-li,dns-case-study}.png`. **Prism** and **Solace** are explicitly marked "IN PROGRESS" in v1 — no screenshots needed yet. |
 | Profile photo for About | ❌ none | Nathan provides — or use a stylized initial fallback |
 | Project live URLs / GitHub links | ⚠️ partial | Nathan to supply per-project |
 
