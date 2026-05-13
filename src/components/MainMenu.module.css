@@ -40,6 +40,12 @@
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
 }
 
+.hidden {
+  opacity: 0;
+  transform: translateY(-50%) translateX(-30px);
+  pointer-events: none;
+}
+
 @media (max-width: 640px) {
   .menu { left: 24px; right: 24px; max-width: none; }
   .item { font-size: 13px; margin-bottom: 18px; letter-spacing: 3px; }

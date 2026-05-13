@@ -44,14 +44,16 @@ function ProjectDetail({ project }: { project: Project }) {
       <div className={styles.stack}>{project.stack}</div>
       <p className={styles.desc}>{project.desc}</p>
       <div className={styles.links}>
-        {!project.noLive && (
-          <a className={styles.linkButton} href={project.liveUrl ?? '#'} target="_blank" rel="noopener noreferrer">
+        {!project.noLive && project.liveUrl && (
+          <a className={styles.linkButton} href={project.liveUrl} target="_blank" rel="noopener noreferrer">
             View Live
           </a>
         )}
-        <a className={styles.linkButton} href={project.githubUrl ?? '#'} target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
+        {project.githubUrl && (
+          <a className={styles.linkButton} href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        )}
       </div>
     </div>
   );

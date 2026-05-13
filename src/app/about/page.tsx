@@ -8,7 +8,7 @@ const SKILLS = [
 
 export default function AboutPage() {
   return (
-    <PageFrame title="About">
+    <PageFrame title="About Me">
       <div className={styles.content}>
         <p>
           Full-stack engineer who builds and ships real products end-to-end — from React frontends and REST/GraphQL APIs to PostgreSQL backends, auth systems, and CI/CD deployments.

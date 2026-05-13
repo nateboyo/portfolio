@@ -14,9 +14,10 @@ const items = [
 
 export default function MainMenu() {
   const pathname = usePathname();
+  const isHidden = pathname !== '/';
 
   return (
-    <nav className={styles.menu}>
+    <nav className={`${styles.menu} ${isHidden ? styles.hidden : ''}`}>
       {items.map(({ href, label }) => {
         const isActive = pathname === href;
         return (

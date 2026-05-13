@@ -28,5 +28,5 @@ test('In-progress projects hide the View Live button', async ({ page }) => {
   await page.goto('/projects');
   await page.getByText('Prism', { exact: false }).click();
   await expect(page.getByRole('link', { name: /view live/i })).toHaveCount(0);
-  await expect(page.getByRole('link', { name: /github/i })).toBeVisible();
+  await expect(page.getByRole('link', { name: /github/i })).toHaveCount(0);
 });

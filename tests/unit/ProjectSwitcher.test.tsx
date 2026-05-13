@@ -40,7 +40,6 @@ describe('ProjectSwitcher', () => {
     const list = screen.getByRole('list');
     await user.click(within(list).getByText('Prism'));
     expect(screen.queryByRole('link', { name: /view live/i })).not.toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /github/i })).toBeInTheDocument();
   });
 
   it('shows IN PROGRESS placeholder for in-progress projects', async () => {

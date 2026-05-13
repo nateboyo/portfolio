@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Josefin_Sans } from 'next/font/google';
 import BackgroundVideo from '@/components/BackgroundVideo';
+import MainMenu from '@/components/MainMenu';
 import FooterCredit from '@/components/FooterCredit';
 import CornerStatus from '@/components/CornerStatus';
 import './globals.css';
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={josefin.variable}>
       <body>
         <BackgroundVideo />
+        <MainMenu />
         {children}
         <CornerStatus />
         <FooterCredit />
