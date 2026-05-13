@@ -1,22 +1,22 @@
 .grid {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 48px;
-  max-width: 1200px;
+  grid-template-columns: 320px 1fr;
+  gap: 56px;
+  max-width: 1400px;
 }
 
 .list { padding: 0; margin: 0; }
 
 .listItem {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--color-text-inactive);
-  margin-bottom: 14px;
+  margin-bottom: 20px;
   cursor: pointer;
   border-left: 2px solid transparent;
-  padding-left: 14px;
+  padding-left: 16px;
   transition: all 0.2s;
 }
 
@@ -24,7 +24,7 @@
 .listItem.active { color: var(--color-text-active); border-left-color: var(--color-accent); }
 
 .wip {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 2px;
   color: var(--color-accent);
   margin-left: 8px;
@@ -33,13 +33,13 @@
 
 .detail {
   border-left: 1px solid var(--color-divider-strong);
-  padding-left: 40px;
+  padding-left: 48px;
 }
 
 .image {
   width: 100%;
-  max-width: 600px;
-  height: 280px;
+  max-width: 700px;
+  height: 340px;
   background: linear-gradient(135deg, #1a2a18 0%, #3a2a18 100%);
   border: 1px solid var(--color-divider-strong);
   margin-bottom: 20px;
@@ -58,43 +58,43 @@
   gap: 6px;
 }
 
-.wipLabel { font-size: 14px; letter-spacing: 5px; color: var(--color-accent); font-weight: 500; }
-.wipSub { font-size: 10px; letter-spacing: 2px; color: var(--color-text-faint); }
+.wipLabel { font-size: 16px; letter-spacing: 5px; color: var(--color-accent); font-weight: 500; }
+.wipSub { font-size: 12px; letter-spacing: 2px; color: var(--color-text-faint); }
 
 .name {
-  font-size: 20px;
+  font-size: 26px;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-weight: 500;
 }
 
 .stack {
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--color-accent);
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .desc {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.7;
   color: var(--color-text-primary);
-  margin-bottom: 20px;
-  max-width: 580px;
+  margin-bottom: 24px;
+  max-width: 640px;
 }
 
-.links { display: flex; gap: 10px; }
+.links { display: flex; gap: 12px; }
 
 .linkButton {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--color-text-primary);
   border: 1px solid var(--color-divider-strong);
-  padding: 8px 16px;
+  padding: 10px 20px;
   transition: all 0.2s;
 }
 
