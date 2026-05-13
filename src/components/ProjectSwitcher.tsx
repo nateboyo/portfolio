@@ -40,11 +40,7 @@ function ProjectDetail({ project }: { project: Project }) {
           <img src={project.image} alt={project.name} />
         )}
       </div>
-      <h2
-        className={styles.name}
-        aria-label={project.name}
-        data-name={project.name}
-      />
+      <h2 className={styles.name}>{project.name}</h2>
       <div className={styles.stack}>{project.stack}</div>
       <p className={styles.desc}>{project.desc}</p>
       <div className={styles.links}>

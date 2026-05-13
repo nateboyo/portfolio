@@ -70,10 +70,6 @@
   font-weight: 500;
 }
 
-.name::before {
-  content: attr(data-name);
-}
-
 .stack {
   font-size: 11px;
   letter-spacing: 2px;
