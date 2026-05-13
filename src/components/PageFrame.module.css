@@ -45,3 +45,8 @@
   margin-bottom: 28px;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
 }
+
+@media (max-width: 640px) {
+  .frame { padding: 40px 24px; }
+  .title { font-size: 18px; letter-spacing: 3px; margin-bottom: 20px; }
+}

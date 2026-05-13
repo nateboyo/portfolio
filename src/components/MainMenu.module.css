@@ -39,3 +39,9 @@
   line-height: 1.5;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
 }
+
+@media (max-width: 640px) {
+  .menu { left: 24px; right: 24px; max-width: none; }
+  .item { font-size: 13px; margin-bottom: 18px; letter-spacing: 3px; }
+  .tagline { font-size: 11px; }
+}
