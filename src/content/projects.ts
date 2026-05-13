@@ -15,6 +15,8 @@ export const projects: Project[] = [
     stack: 'Node.js · PWA · SSE · JavaScript',
     desc: 'Full-featured caregiving coordination app for families managing elder care. Tasks, medications, appointments, shared notes, real-time family group chat via Server-Sent Events. Shipped as a PWA with offline support.',
     image: '/projects/care-circle.png',
+    liveUrl: 'https://nateboyo.github.io/Care-Circle-Web-App-Beta/',
+    githubUrl: 'https://github.com/nateboyo/Care-Circle-Web-App-Beta',
   },
   {
     name: 'JobLink Log',
@@ -47,13 +49,13 @@ export const projects: Project[] = [
     stack: 'Vercel · GitHub Actions · Client Work',
     desc: 'Personal freelance brand and client showcase. Multiple shipped client deliverables. End-to-end ownership: scoping, architecture, development, deployment, post-launch iteration.',
     image: '/projects/creative-shore-li.png',
-    liveUrl: 'https://creativeshoreli.com',
+    liveUrl: 'https://www.creativeshoreli.com/',
   },
   {
     name: 'DNS Case Study',
     stack: 'PowerShell · Bash · Infrastructure',
     desc: 'End-to-end DNS troubleshooting framework with automated diagnostic workflows isolating local cache, ISP, and public endpoint faults. Reproducible documented diagnostic steps.',
     image: '/projects/dns-case-study.jpg',
-    noLive: true,
+    githubUrl: 'https://github.com/nateboyo/dns-connectivity-troubleshooting-portfolio',
   },
 ];
