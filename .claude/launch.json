@@ -2,10 +2,11 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "mockup-server",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["serve", "-l", "3131", "."],
-      "port": 3131
+      "name": "portfolio-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000,
+      "cwd": "C:\\Users\\darth\\portfolio"
     }
   ]
 }

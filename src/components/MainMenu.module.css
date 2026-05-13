@@ -1,21 +1,21 @@
 .menu {
   position: fixed;
-  left: 64px;
+  left: 80px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 20;
-  max-width: 380px;
+  max-width: 500px;
   transition: opacity var(--transition-fade), transform var(--transition-fade);
 }
 
 .item {
   display: block;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: var(--letter-spacing-menu);
   text-transform: uppercase;
   color: var(--color-text-inactive);
-  margin-bottom: 22px;
+  margin-bottom: 30px;
   line-height: 1.2;
   cursor: pointer;
   transition: color 0.2s;
@@ -30,12 +30,12 @@
 }
 
 .tagline {
-  margin-top: 20px;
-  font-size: 12px;
+  margin-top: 24px;
+  font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.3px;
   color: var(--color-text-primary);
-  max-width: 320px;
+  max-width: 400px;
   line-height: 1.5;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
 }
