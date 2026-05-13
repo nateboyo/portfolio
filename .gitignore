@@ -26,3 +26,12 @@ yt-dlp.exe
 # Browser preview profiles (from Job Tracker work)
 .edge-profile-preview/
 .edge-profile-vercel-preview/
+
+# Testing artifacts
+coverage/
+playwright-report/
+test-results/
+.vitest/
+
+# TypeScript build info
+tsconfig.tsbuildinfo
