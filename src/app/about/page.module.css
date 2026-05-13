@@ -1,0 +1,24 @@
+.content {
+  max-width: 720px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-text-primary);
+}
+
+.content p { margin-bottom: 16px; }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.skill {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(232, 220, 200, 0.75);
+  border: 1px solid rgba(232, 220, 200, 0.25);
+  padding: 5px 10px;
+}
